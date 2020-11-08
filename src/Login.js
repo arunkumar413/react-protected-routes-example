@@ -9,9 +9,9 @@ export default function Login() {
 
   return (
     <div>
-      <h2> Login </h2>
+      <h2> Login Page </h2>
       <button onClick={Login}>Login </button>
-      <Link to="/protected"> protected </Link>
+      <Link to="/protected"> go to protected </Link>
     </div>
   );
 }
